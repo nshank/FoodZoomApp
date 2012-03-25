@@ -13,4 +13,6 @@
  *= require global/foundation
  *= require global/ie
  *= require global/map
+ *= require global/header
+ *= require global/footer
 */

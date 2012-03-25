@@ -1,0 +1,31 @@
+<h1>Listing trucks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Website</th>
+    <th>Twitter name</th>
+    <th>Logo image</th>
+    <th>Info</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @trucks.each do |truck| %>
+  <tr>
+    <td><%= truck.name %></td>
+    <td><%= truck.website %></td>
+    <td><%= truck.twitter_name %></td>
+    <td><%= truck.logo_image %></td>
+    <td><%= truck.info %></td>
+    <td><%= link_to 'Show', truck %></td>
+    <td><%= link_to 'Edit', edit_truck_path(truck) %></td>
+    <td><%= link_to 'Destroy', truck, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Truck', new_truck_path %>

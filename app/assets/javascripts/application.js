@@ -11,8 +11,14 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery-ui
 //= require jquery_ujs
 //= require plugins
 //= require script
 //= require foundation
 //= require map
+
+
+$(function() {
+  $("#location_date").datepicker();
+});

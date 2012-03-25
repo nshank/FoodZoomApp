@@ -22,7 +22,7 @@
 		v2.0 | 20110126
    		License: none (public domain)
 	*/
-/*	
+	
 	html, body, div, span, applet, object, iframe,
 	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 	a, abbr, acronym, address, big, cite, code,
@@ -44,9 +44,9 @@
 	}
 	html {
 		font-size: 62.5%; 
-	}*/
+	}
 	/* HTML5 display-role reset for older browsers */
-	/*article, aside, details, figcaption, figure, 
+	article, aside, details, figcaption, figure, 
 		footer, header, hgroup, menu, nav, section {
 			display: block;
 		}
@@ -67,27 +67,27 @@
 		table {
 			border-collapse: collapse;
 			border-spacing: 0;
-		}*/
+		}
 	
 	
 	
-	/*body { background: #fff; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }*/
+	body { background: #fff; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
 	
 
 
 /*	--------------------------------------------------
 	:: Links
 	-------------------------------------------------- */
-	/*a { color: #2a85e8; text-decoration: none; line-height: inherit; }
-		a:hover { color: #11639d; }
-		a:focus { color: #cc4714; outline: none; }
-		p a, p a:visited { line-height: inherit; }*/
+	a { color: #2a85e8; text-decoration: none; line-height: inherit; }
+			a:hover { color: #11639d; }
+			a:focus { color: #cc4714; outline: none; }
+			p a, p a:visited { line-height: inherit; }
 	
 
 /*	--------------------------------------------------
 	:: Lists
 	-------------------------------------------------- */
-	/*ul, ol { margin-bottom: 18px; }
+	ul, ol { margin-bottom: 18px; }
 		ul { list-style: none outside; }
 		ol { list-style: decimal; }
 		ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
@@ -96,7 +96,7 @@
 		ul.disc { list-style: disc outside; }
 		li { margin-bottom: 12px; }
 		ul.large li { line-height: 21px; }
-		*/
+		
 
 /*	--------------------------------------------------
 	:: Tables

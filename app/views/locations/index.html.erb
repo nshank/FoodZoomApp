@@ -1,26 +1,45 @@
-<div role="main">
-    <ol class="trucks">
-      <li class="truck" data-lat="41.960558" data-lon="-87.698719"> 
-        Name of Truck
-        Location of Truck
-        </li>
-      <li class="truck" data-address="600 W Chicago Ave, Chicago, IL"> 
-        Name of Truck
-        Location of Truck
-        </li>
-      <li class="truck"> 
-        Name of Truck
-        Location of Truck
-        </li>
-      <li class="truck"> 
-        Name of Truck
-        Location of Truck
-        </li>
-      </ol>
-
- <div id="map_canvas" style="width:100%; height:100%"></div>
-  </div>
-  <footer>
-
-  </footer>
-
+<div class="row" style="border:1px solid red;">
+	<div class="four columns">
+		<div>
+			<p>Date: <input type="text" id="location_date"></p>
+		</div>
+		  <ul class="trucks">
+				<li class="truck"> 
+	        <a href="#" data-role="location" data-options='{"id":"1", "lat":"41.960558", "lon":"-87.698719", "title":"Truck 1"}'>Name of Truck</a>
+	        Location of Truck
+	        </li>      
+	<li class="truck"> 
+	        <a href="#" data-role="location" data-options='{"id":"1", "lat":"41.894132", "lon":"-87.625552", "title":"Truck 2"}'>Name of Truck</a>
+	        Location of Truck
+	        </li>
+	      <li class="truck" data-address="600 W Chicago Ave, Chicago, IL"> 
+	        Name of Truck
+	        Location of Truck
+	        </li>
+	      <li class="truck"> 
+	        Name of Truck
+	        Location of Truck
+	        </li>
+	      <li class="truck"> 
+	        Name of Truck
+	        Location of Truck
+	        </li>
+	      </ul>
+	</div>
+  <div class="eight columns">
+		<div id="map_canvas" style="width:100%; height:100%"></div>
+		<div id="more_info" data-options='{"id":"1", "name":"5411 Empinadas"}'>
+			<div class="six columns">
+			<h3>Truck Name</h3>
+			<ul>
+				<li>website</li>
+				<li>@twitter</li>
+				<li>Information</li>
+			</ul>
+			</div>
+			<div class="six columns">
+				Image
+			</div>
+		</div>
+	</div>
+</div>

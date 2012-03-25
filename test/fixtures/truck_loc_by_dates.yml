@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  truck_id: 1
+  location_id: 1
+  loc_time_id: 1
+  location_date: MyString
+
+two:
+  truck_id: 1
+  location_id: 1
+  loc_time_id: 1
+  location_date: MyString

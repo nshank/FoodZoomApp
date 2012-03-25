@@ -1,0 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  at_loc_time: MyString
+
+two:
+  at_loc_time: MyString
